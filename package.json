@@ -1,0 +1,23 @@
+{
+    "name": "adnsol-chatbot",
+    "version": "1.0.0",
+    "description": "Chatbot ADNSOL",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js"
+    },
+    "keywords": [
+        "bot",
+        "facebook"
+    ],
+    "author": "kirie",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.3",
+        "moment": "^2.29.1",
+        "mysql": "^2.18.1",
+        "node-schedule": "^2.1.0",
+        "request": "^2.88.2"
+    }
+}
