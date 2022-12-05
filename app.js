@@ -571,7 +571,7 @@ Cortar de preferencia las uñas de los 10 dedos de manos.
             a_respuestas.push({ 'text': `ADN SOLUTIONS , Centro Especializado en Genética 🧬, le ofrece Examen Genético Completo de Paternidad ADN` }, { 'text': `Nuestros examenes son 100% seguros y no hay cabida a un cambio de resultado bajo ningun motivo` });
         } else if (sentence.match(/\D?(whatsapp|whasapp|wsp)\D*/gm)) {
             a_respuestas.push({ 'text': m_hay_costos });
-            a_respuestas.push({ 'text': `Todos los numeros tienen Whatsapp cuede escribirnos a cualquiera estos número` });
+            a_respuestas.push({ 'text': `Todos los numeros tienen Whatsapp puede escribirnos a cualquiera estos número` });
             a_respuestas.push({ 'text': m_o_dejenos });
             estado_sesion_n = 'AR';
         } else if (sentence.match(/(privad|priva|normal|pribad|previad|previa|adn|particular|personal|an[o,ó]nimo|discreto|confidencial|pribado|preva|preba|vajo|bajo|callad|(que\D?\D*se\D?\D*enter))/gm)) {
@@ -914,7 +914,7 @@ Cortar de preferencia las uñas de los 10 dedos de manos.
             a_respuestas.push({ 'text': `ADN SOLUTIONS , Centro Especializado en Genética 👨‍⚕️, le ofrece Examen Genético Completo de Paternidad ADN` }, { 'text': `Nuestros examenes son 100% seguros y no hay cabida a un cambio de resultado bajo ningun motivo` });
         } else if (sentence.match(/\D?(whatsapp|whasapp|wsp)\D*/gm)) {
             a_respuestas.push({ 'text': m_hay_costos });
-            a_respuestas.push({ 'text': `Todos los numeros tienen Whatsapp cuede escribirnos a cualquiera estos número` });
+            a_respuestas.push({ 'text': `Todos los numeros tienen Whatsapp puede escribirnos a cualquiera estos número` });
             a_respuestas.push({ 'text': m_o_dejenos });
             estado_sesion_n = 'AR';
         } else if (sentence.match(/(privad|priva|normal|pribad|previad|previa|adn|particular|personal|an[o,ó]nimo|discreto|confidencial|pribado|preva|preba|vajo|bajo|callad|(que\D?\D*se\D?\D*enter))/gm)) {
@@ -1192,7 +1192,7 @@ Cortar de preferencia las uñas de los 10 dedos de manos.
             a_respuestas.push({ 'text': `o déjenos un número telefónico para que un perito le llame y asesore en detalle según sea su caso.` });
         } else if (sentence.match(/\D?(whatsapp|whasapp|wsp)\D*/gm)) {
             a_respuestas.push({ 'text': m_hay_costos });
-            a_respuestas.push({ 'text': `Todos los numeros tienen Whatsapp cuede escribirnos a cualquiera estos número` });
+            a_respuestas.push({ 'text': `Todos los numeros tienen Whatsapp puede escribirnos a cualquiera estos número` });
             a_respuestas.push({ 'text': m_o_dejenos });
             estado_sesion_n = 'AR';
         } else if (sentence.match(/(privad|normal|priva|pribad|previad|previa|adn|particular|personal|an[o,ó]nimo|discreto|confidencial|pribado|preva|preba|vajo|bajo|callad|(que\D?\D*se\D?\D*enter))/gm)) {
